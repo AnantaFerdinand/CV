@@ -7,7 +7,7 @@ let age = document.getElementById("age").value;
 console.log(age);
 
 
-function helloWorld(){
+function hello(){
     let value = document.getElementById("age").value;
     document.getElementsByTagName("p").innerText = value;
     document.querySelector(".td").style.fontFamily = "Times New Roman";
