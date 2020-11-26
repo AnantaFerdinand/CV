@@ -7,6 +7,7 @@
         <meta name="author" content="Ananta Ferdinand Lolo">
         <link rel="stylesheet" href="style.css"/>
         <title>Ananta Ferdinand Lolo Website</title>
+        
     </head>
 
 <body>
@@ -16,12 +17,15 @@
     <td>
     <img src="circle-cropped.png" alt="profile picture" width="200">
     </td>
-
     <td>
-    <h1>Ananta Ferdinand Lolo</h1>
-    <h3>Student</h3>
+    <span style="color: red">
+    <h1 class="header">Ananta Ferdinand Lolo</h1>
+    <h3 id="header 2">Student</h3>
+    <input id="age" type="text"/></input>
+    <button onClick="helloWorld()">Click Me</button>
     
     <p>
+    <span style="color:cyan">
     Student at Computer Science Universitas Klabat,
     </br>
     Airmadidi, Minahasa Utara, Indonesia, 95371
@@ -29,11 +33,12 @@
     Email: <em>ferdinandananta1996@gmail.com</em>
     </br>
     Phone: +6282112126749 </p>
+    </span>
     </table>  
+
     </tr>
-    
+    </span>
     </td>
-  
 </header>
 
     <nav id ="top-containner">
@@ -49,15 +54,21 @@
     <hr>
     <h1>My Interest</h1>
     <p>
-        Read the newspaper online, Listening the music, web design, web programming,
+        <span style="color: green">
+        Read the newspaper online, Listening the music, Web Design, Web Programming.
         <br>
-        Game online by phone not PUBG and etc.
+        My hobby is game online by phone not PUBG and etc.</span>
     </p>
+    <p></p>
+<script src="index.js"></script>
 </section>
 
 <section id="biodata">
+
     <hr>
     <h1>Biodata</h1>
+    <span style="color: green">
+    <p>
     Name                   : Ananta Ferdinand Lolo
 </br>
 
@@ -71,13 +82,15 @@
 </br>
     <a href="https://www.facebook.com/ferdinandananta/">Facebook</a>
     <a href="https://www.instagram.com/ferdinandananta">Instagram</a>
+</p>
 </br>
+</span>
 </section>
 
 <section id="history-educations">
 <hr>
 <h1>History Educations</h1>
-<ol>
+<ol style="color:coral">
 1. Eben Haezar Kindergarten School  (Manado, 2001-2002)
   </br>
 2. Eben Haezar Elementary School    (Manado, 2002-2008)
@@ -145,7 +158,8 @@ Major : Information System  (Airmadidi, 2019-Present)
 
 <section id="contact-me">
     <hr>
-    <h1>Contact Me</h1>
+    <h1>Contact Me</h1> 
+    
 </br>
     <form>
         <label for="name">Your Name: </label>
@@ -154,7 +168,7 @@ Major : Information System  (Airmadidi, 2019-Present)
         <br>
         <label for="email">Your Email: </label>
         <text name="email" id="email" cols="40" rows="20"></text>
-        <input type="emial" name="email" id="email" required>
+        <input type="email" name="email" id="email" required>
         <br>
         <br>
         <label for="message">Your Message: </label>
@@ -163,10 +177,12 @@ Major : Information System  (Airmadidi, 2019-Present)
         </textarea>
         <br>
         <br>
-        <input type="Submit" name="Submit">
+        <input type="Submit" name="Submit"/></input>
+       
     </form>
 
 </section>
+
 
 <footer></footer>
 </body>
