@@ -1,8 +1,4 @@
-p{
-    color: darkblue;
-}
-
-td{
+.td{
     font-family: "Sans-serif";
     font-size:2rem;
     background-color: goldenrod;
@@ -11,13 +7,16 @@ td{
 body{
     
     text-transform: capitalize;
-    background-color: black;
+    background-color: coral;
     position: absolute;
     font-family: "Sans-serif";
     font-size: 3rem;
     color: darkblue;
     margin: 0 auto;
 }
+
+
+
 
 @media screen and (max-width: 400px){
     img{
@@ -38,14 +37,15 @@ body{
     }
 }
 
-h1{
+.h1{
     background-color: forestgreen;
     margin: 0px;
     text-align:left;
 }
+
 #top-containner{
     background-color: lightgrey;
-    font-family: "Arial";
+    font-family: "Sans-serif";
     width: 100%;
 }
 nav{
@@ -58,7 +58,7 @@ nav{
     top: 0px;
 }
 
-a[href]{
+.a[href]{
     font-size:30px;
     text-decoration: underline;
     text-transform: uppercase;
