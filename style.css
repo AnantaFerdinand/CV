@@ -4,13 +4,13 @@
     background-color: goldenrod;
 }
 
-body{
+.body{
     
     text-transform: capitalize;
     background-color: coral;
     position: absolute;
     font-family: "Sans-serif";
-    font-size: 3rem;
+    font-size: 3em;
     color: darkblue;
     margin: 0 auto;
 }
